@@ -1,0 +1,28 @@
+{
+  "name": "vue3",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build:dev": "vite build --mode dev",
+    "build:test": "vite build --mode test",
+    "build:pro": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "vant": "^3.4.5",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12",
+    "vue-wechat-title": "^2.0.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "amfe-flexible": "^2.2.1",
+    "autoprefixer": "^10.4.2",
+    "postcss-pxtorem": "^6.0.0",
+    "sass": "^1.49.8",
+    "vite": "^2.8.0",
+    "vite-plugin-style-import": "1.4.1"
+  }
+}
